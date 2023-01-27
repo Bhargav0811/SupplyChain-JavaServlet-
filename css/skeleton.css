@@ -21,7 +21,7 @@ body {
     display: flex;
     gap: 2rem;
     align-items: center;
-    
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
     font-weight: 500;
@@ -72,6 +72,28 @@ body {
     height: fit-content;
     width: 100%;
 }
-.Footer{
+
+.Footer {
     width: 100%;
+}
+
+.btn-circle {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.btn-circle i {
+    position: relative;
+    top: -1px;
+}
+
+.btn-circle-xl {
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.7rem;
 }
