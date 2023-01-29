@@ -15,3 +15,9 @@ window.onclick = function (event) {
         }
     }
 }
+
+$(document).ready(function(){
+    $(".navinfo .icon-button").click(function(){
+        $(".dropdown_notf").toggleClass("active");
+    })
+});
