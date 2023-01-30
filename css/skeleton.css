@@ -27,6 +27,44 @@ body {
     font-weight: 500;
     color: white;
 }
+.tiles{
+    height: fit-content;
+    width: 80%;
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 18vh;
+    margin: auto;
+    justify-items: center;
+    padding: 2rem;
+}
+.tile{
+    height: 11vh;
+width: 25rem;
+display: inline-block;
+position: relative;
+position: relative;
+text-align: justify;
+    border-radius: 10px;
+    padding: 2rem;
+  box-shadow: 5px 10px 15px 1px rgba(0,0,0,0.2), inset 10px 9px 31px 1px rgba(0,0,0,0.32);
+  }
+  .tile_crcl{
+    background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 96%, rgba(252,176,69,1) 100%);
+height: 60px;
+width: 60px;
+border-radius: 50%;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+transform: translateX(20rem);
+color: aliceblue;
+font-weight: bolder;
+font-size: 1.5rem;
+
+
+  }
 
 .icon-button {
     position: relative;
@@ -75,6 +113,7 @@ body {
 top: 8%;
 right: 11.9%;
 	display: none;
+    z-index: 100;
 }
 
 .navinfo .dropdown_notf .notify_item{
